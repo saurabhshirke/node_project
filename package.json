@@ -1,0 +1,32 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "node js tutorial",
+  "main": "coreModules.js",
+  "scripts": {
+    "test": "\t",
+    "nodemon": "nodemon nodemon.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhshirke/node_project.git"
+  },
+  "keywords": [
+    "The",
+    "saurabhtech"
+  ],
+  "author": "Saurabh shirke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhshirke/node_project/issues"
+  },
+  "homepage": "https://github.com/saurabhshirke/node_project#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4"
+  }
+}

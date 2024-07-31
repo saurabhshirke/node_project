@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+</head>
+<body>
+  <!-- navbar included -->
+  <h3><%- include('common/Navbar') %></h3>
+
+  <h2>About</h2>
+  <h3>Welcome <%= userInfo.name %></h3>
+  <h4>Your user id is <%= userInfo.id %> </h4>
+  <ul>
+    <% userInfo.game.forEach((item) => {  %>
+      <li><%= item %></li>
+    <% })  %>
+  </ul>
+</body>
+</html>
